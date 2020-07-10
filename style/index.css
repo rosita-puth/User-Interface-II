@@ -1,1 +1,274 @@
 /* Add CSS styling here */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap');
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+  line-height: 1;
+  
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+  width: 100%;
+  height: 20vh;
+  background-color: beige;
+  
+}
+
+.header-container h1 {
+  font-size: 5em;
+  font-family: 'Grenze Gotisch', cursive;
+  font-weight: 300;
+  margin-left: 2%;
+}
+.nav {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  
+}
+.nav a {
+  text-decoration: none;
+  background-color: cadetblue;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  margin-top: 1.8em;
+  font-size: 1.4em;
+}
+.nav a:hover {
+  color: darkcyan; 
+}
+.container1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.car {
+  width: 30%;
+  margin-left: 10%;
+}
+
+.text {
+  width: 70%;
+}
+.text a {
+  text-decoration: none;
+  
+}
+figcaption {
+  margin-top: 2em;
+}
+.text h2 {
+  font-family: 'Grenze Gotisch', cursive; 
+  font-size: 2em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+.button {
+  border: none;
+  padding: 10px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  color: white;
+  margin-bottom: 1.5em;
+}
+.button:hover {
+  color: darkcyan;
+}
+figcaption {
+  width: 50%;
+}
+
+.img-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.img-container1 .item1 {
+  width: 400px;
+  height: 400px;
+}
+.img-container1 p{
+  text-align: center;
+}
+
+.item1 {
+  width: 23%;
+}
+.img-container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+.img-container2 .item2 {
+  width: 400px;
+  height: 400px;
+}
+.img-container2 p{
+  text-align: center;
+} 
+
+.item2 {
+  width: 23%;
+  height: 40vh;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 30vh;
+  background-color: cadetblue;
+  margin-top: 3%;
+}
+.footer h3 {
+  font-size: 5em;
+  text-align: center;
+  padding-top: 1em;
+}
+.contact-me-button {
+  width: 100%;
+  border: none;
+  background-color: salmon;
+  color: white;
+  text-align: center;
+  padding: 3%;
+  border-radius: 10px;
+  font-size: 1.8em;
+}
+.contact-me-button a {
+  text-decoration: none;
+  background-color: salmon ;
+}
+
+.contact-me-button:hover {
+  color: darkcyan;
+}
+.about-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  height: 40vh;
+
+}
+.girl {
+  width: 50%;
+}
+.text-about {
+  width: 50%;
+  font-size: 1.6em;
+}
+.girl img {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  margin-left: 40%;
+
+}
+.project-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.p-tag {
+  width: 50%;
+}
+.p-tag figcaption {
+  margin-left: 30%;
+  margin-top: 10%;
+  font-size: 1.6em;
+}
+.cactus {
+  width: 50%;
+
+}
+.cactus img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: 5%;
+}
+.social-media {
+  width: 100%;
+  height: auto;
+  margin: auto;
+   
+}
+.social-media ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.social-media ul li {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: white;
+  margin: 0 50px;
+}
+.social-media ul li a {
+  color: lightskyblue;
+  font-size: 25px; 
+}
+.social-media ul li a i{
+  line-height: 50px;
+}
+
+
+
+
+
