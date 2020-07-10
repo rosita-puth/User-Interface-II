@@ -185,6 +185,10 @@ figcaption {
   border-radius: 10px;
   font-size: 1.8em;
 }
+.contact-me-button a {
+  text-decoration: none;
+  background-color: salmon ;
+}
 
 .contact-me-button:hover {
   color: darkcyan;
@@ -192,20 +196,51 @@ figcaption {
 .about-container {
   width: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 5%;
+  height: 40vh;
 
 }
-.about-container img {
-  width: 400px;
-  height: 400px;
+.girl {
+  width: 50%;
 }
-.about-container p {
+.text-about {
   width: 50%;
   font-size: 1.6em;
 }
+.girl img {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  margin-left: 40%;
 
+}
+.project-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+.p-tag {
+  width: 50%;
+}
+.p-tag figcaption {
+  margin-left: 30%;
+  margin-top: 10%;
+  font-size: 1.6em;
+}
+.cactus {
+  width: 50%;
 
-
+}
+.cactus img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin-top: 5%;
+}
 
 
 
