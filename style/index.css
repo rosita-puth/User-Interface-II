@@ -100,8 +100,9 @@ header {
 }
 
 .car img {
-  width: 90%;
-  margin-left: 7em;
+  width: 800px;
+  height: 500px;
+  /* margin-left: 7em; */
   
 }
 
@@ -115,10 +116,7 @@ header {
 .container1 p {
   margin-top: 3em;
 }
-.container1 .text {
-  margin-top: 4em;
- 
-}
+
 
 .text h2 {
   font-family: 'Grenze Gotisch', cursive; 
@@ -293,12 +291,10 @@ header {
     display: flex;
     justify-content: space-evenly;
   }
-  .car {
-    width: 30%;
+  .container1 img {
+    width: 50%;
   }
-  .text {
-    width: 100%;
-  }
+  
   .container1 {
     display: flex;
     box-sizing: border-box;
@@ -329,17 +325,42 @@ header {
 }
 
 @media(max-width: 500px) {
-  body {
-    background-color: red;
+  .name {
+    font-size: 40%;
+    margin-top: 5%;
   }
   .nav {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    
-   
+    align-items: center; 
+  }
+  .nav a {
+    font-size: 70%;
+    margin: 7% 0;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 p {
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .container1 img {
+    width: 100%;
+  }
+  .text {
+    width: 100%;
+    text-align: center;
   }
 
+  .text p {
+    text-align: justify;
 
+  }
+  .text h2 {
+    margin-top: 0;
+  } 
 }
+
   
