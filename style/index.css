@@ -33,8 +33,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
-  border: 2px solid grey;
-
+  /* border: 2px solid grey; */
+  color: #4D4D4D;
   
 }
 ol, ul {
@@ -87,7 +87,7 @@ header {
   margin-right: 1%;
 }
 .nav a:hover {
-  color: darkcyan; 
+  color: black; 
 }
 .container1 {
   width: 100%;
@@ -99,12 +99,7 @@ header {
   width: 48%;
 }
 
-.car img {
-  width: 800px;
-  height: 500px;
-  /* margin-left: 7em; */
-  
-}
+
 
 .text {
   width: 48%;
@@ -133,7 +128,7 @@ header {
   margin-bottom: 1.5em;
 }
 .button:hover {
-  color: darkcyan;
+  color: black;
 }
 
 
@@ -187,11 +182,12 @@ header {
   font-size: 2em;
   text-align: center;
   padding-top: 0.5em;
+  color: black;
 }
 .contact-me-button {
   width: 100%;
   border: none;
-  background-color: salmon;
+  background-color: rgb(238, 73, 54);
   color: white;
   text-align: center;
   padding: 3%;
@@ -201,11 +197,11 @@ header {
 }
 .contact-me-button a {
   text-decoration: none;
-  background-color: salmon ;
+  background-color: rgb(238, 73, 54) ;
 }
 
-.contact-me-button:hover {
-  color: darkcyan;
+.contact-me-button .button:hover {
+  color: black;
 }
 .about-container {
   width: 100%;
@@ -361,6 +357,20 @@ header {
   .text h2 {
     margin-top: 0;
   } 
+  footer {
+    display: flex;
+  }
+
+  footer .contact-me-button{
+    font-size: 70%;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 2%;
+  }
+  footer .social-media ul {
+    display: flex;
+  }
+  
 }
 
   
